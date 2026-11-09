@@ -61,7 +61,7 @@ dataround-link-svc/target/dataround-link-0.9.1.tar.gz
 ## Release Notes
 
 - This release is source-only. No binary assets are attached to the GitHub release.
-- A new Docker image is not published for v0.9.1. Use the existing `dataround/link:0.9.0` image or build from source.
+- The Docker image tag for this release is `dataround/link:0.9.1`, but it is not published to Docker Hub. Build it locally after producing the deployment package if needed.
 - Database tables are created automatically on startup for both PostgreSQL and H2.
 
 ## Feedback and Contributions

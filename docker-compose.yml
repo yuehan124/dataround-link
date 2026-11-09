@@ -16,7 +16,7 @@ services:
       - dataround-network
 
   dataround-link:
-    image: dataround/link:0.9.0
+    image: dataround/link:0.9.1
     container_name: dataround-link
     depends_on:
       - postgres

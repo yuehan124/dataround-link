@@ -112,7 +112,7 @@ spec:
     spec:
       containers:
         - name: dataround-link
-          image: dataround/link:0.9.0
+          image: dataround/link:0.9.1
           env:
             - name: SPRING_PROFILES_ACTIVE
               valueFrom:

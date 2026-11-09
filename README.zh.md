@@ -67,7 +67,7 @@ CREATE DATABASE dataround_link;
 
 **使用默认 H2 数据库:**
 ```bash
-docker run -p 5600:5600 -d dataround/link:0.9.0
+docker run -p 5600:5600 -d dataround/link:0.9.1
 ```
 
 **使用外部 PostgreSQL 数据库:**
@@ -77,7 +77,7 @@ docker run -e SPRING_PROFILES_ACTIVE=prod \
   -e DATASOURCE_USERNAME=your_username \
   -e DATASOURCE_PASSWORD=your_password \
   -p 5600:5600 -d \
-  dataround/link:0.9.0
+  dataround/link:0.9.1
 ```
 
 #### 2. Docker Compose 部署
